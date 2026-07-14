@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Services — Civion BD</title>
+<meta name="description" content="Four engineering service categories: BIM & Digital Delivery, Structural Engineering, Geotechnical Engineering, and Visualization & Automation." />
+<link rel="icon" href="../favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" href="../media/logos/favicon-32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="../media/logos/favicon-16.png" sizes="16x16" />
+<link rel="apple-touch-icon" href="../media/logos/apple-touch-icon.png" />
+<meta property="og:title" content="Services — Civion BD" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="../media/logos/civion-bd-logo-social.png" />
+<!-- Google Analytics (GA4) — Measurement ID G-GGPD788ZMY -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GGPD788ZMY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-GGPD788ZMY', { anonymize_ip: true });
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../assets/css/main.css" />
+<link rel="stylesheet" href="../assets/css/animations.css" />
+<style>
+  .material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24;font-size:24px;line-height:1;}
+  .service-category { padding: var(--space-xl) 0; border-bottom: 1px solid rgba(255,255,255,0.06); }
+  .service-category:last-of-type { border-bottom: none; }
+  .service-item { border-left: 2px solid var(--color-outline); padding-left: var(--space-md); transition: border-color var(--dur-base) var(--ease-mech); }
+  .service-item:hover { border-color: var(--color-accent); }
+  .service-category__layout { display: grid; grid-template-columns: 1fr 260px; gap: var(--space-xl); align-items: start; }
+  @media (max-width: 900px) { .service-category__layout { grid-template-columns: 1fr; } .service-category__layout .media-figure { max-width: 320px; margin: 0 auto; order: -1; } }
+</style>
+</head>
+<body data-page="services" data-depth="1">
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="nav" id="topNav">
+  <div class="nav__inner">
+    <a href="../index.html" class="nav__logo">
+      <img src="../media/logos/civion-bd-logo-light.png" alt="Civion BD" class="nav__logo-img" />
+    </a>
+
+    <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav__links">
+      <a href="../index.html" class="nav__link" data-page="home">Home</a>
+      <a href="../about/index.html" class="nav__link" data-page="about">About</a>
+      <a href="../services/index.html" class="nav__link" data-page="services">Services</a>
+      <a href="../projects/index.html" class="nav__link" data-page="projects">Projects</a>
+      <a href="../team-and-partnerships/index.html" class="nav__link" data-page="team">Team &amp; Partners</a>
+      <a href="../contact/index.html" class="btn btn--primary">Get In Touch</a>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+
+  <section class="section bg-gradient-steel" style="padding-top:calc(var(--nav-height) + var(--space-xl));position:relative;overflow:hidden;">
+    <div class="bg-blueprint" style="position:absolute;inset:0;opacity:0.4;" aria-hidden="true"></div>
+    <div class="container" style="position:relative;max-width:820px;">
+      <span class="hero__eyebrow">Engineering Capability</span>
+      <h1 class="hero__title" style="font-size:clamp(2.2rem,4.5vw,3.4rem);margin-top:var(--space-md);">Four disciplines. One coordinated delivery.</h1>
+      <p class="hero__subtitle">From 2D-to-BIM conversion through nonlinear seismic peer review, every service is delivered by the same team, on shared models, against BNBC 2020, ASCE 7-22, ACI 318, Eurocode, and ISO 19650.</p>
+    </div>
+  </section>
+
+  <!-- ================= A. BIM & DIGITAL DELIVERY ================= -->
+  <section class="service-category bg-charcoal">
+    <div class="container">
+      <div class="service-category__layout">
+        <div>
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Category A</span>
+        <h2 class="section-title" style="display:flex;align-items:center;gap:12px;"><span class="material-symbols-outlined" style="color:var(--color-accent-bright);font-size:32px;">view_in_ar</span> BIM &amp; Digital Delivery</h2>
+      </div>
+      <div class="grid grid-2">
+        <div class="service-item" data-reveal data-reveal-delay="1">
+          <span class="mono-tag">A1</span>
+          <h3 style="font-size:var(--fs-lg);margin:6px 0 8px;">2D-to-BIM Conversion (PDF / DWG to Revit)</h3>
+          <p style="font-size:var(--fs-sm);margin-bottom:10px;">Convert legacy CAD drawings and scanned plans into clean, coordination-ready Revit models.</p>
+          <ul style="font-size:var(--fs-sm);color:var(--color-soft-gray);display:flex;flex-direction:column;gap:4px;">
+            <li>LOD 200–300 geometry (upgradeable to LOD 400)</li>
+            <li>Correct Revit categories, families, naming conventions</li>
+            <li>IFC export for interoperability</li>
+          </ul>
+        </div>
+        <div class="service-item" data-reveal data-reveal-delay="2">
+          <span class="mono-tag">A2</span>
+          <h3 style="font-size:var(--fs-lg);margin:6px 0 8px;">Parametric Revit Family Creation (LOD 300–400)</h3>
+          <p style="font-size:var(--fs-sm);margin-bottom:10px;">Custom parametric families built for precise BIM integration.</p>
+          <ul style="font-size:var(--fs-sm);color:var(--color-soft-gray);display:flex;flex-direction:column;gap:4px;">
+            <li>Embedded metadata: material, load, fire rating, specification</li>
+            <li>ISO 19650-compliant naming and classification</li>
+            <li>Tested in a live Revit project environment</li>
+          </ul>
+        </div>
+        <div class="service-item" data-reveal data-reveal-delay="3">
+          <span class="mono-tag">A3</span>
+          <h3 style="font-size:var(--fs-lg);margin:6px 0 8px;">4D/5D Construction Simulation &amp; Clash-Free BIM Coordination</h3>
+          <p style="font-size:var(--fs-sm);margin-bottom:10px;">Full multidisciplinary BIM coordination under ISO 19650.</p>
+          <ul style="font-size:var(--fs-sm);color:var(--color-soft-gray);display:flex;flex-direction:column;gap:4px;">
+            <li>Navisworks Clash Detective report (hard, soft, workflow)</li>
+            <li>4D Timeliner-linked construction sequence simulation</li>
+            <li>5D cost-linked model with element-level BOQ quantities</li>
+          </ul>
+        </div>
+        <div class="service-item" data-reveal data-reveal-delay="4">
+          <span class="mono-tag">A4</span>
+          <h3 style="font-size:var(--fs-lg);margin:6px 0 8px;">Technical BIM Debugging &amp; FEA Rescue</h3>
+          <p style="font-size:var(--fs-sm);margin-bottom:10px;">Diagnostic and correction service for non-converging models and coordination issues.</p>
+          <ul style="font-size:var(--fs-sm);color:var(--color-soft-gray);display:flex;flex-direction:column;gap:4px;">
+            <li>Root-cause documentation and corrected model file</li>
+            <li>Applicable to Revit, Navisworks, ETABS, SAP2000, PLAXIS</li>
+          </ul>
+        </div>
+      </div>
+        </div>
+        <div class="media-figure" style="aspect-ratio:0.56;" data-reveal data-reveal-delay="2">
+          <img src="../media/services/service-bim-v01.webp" alt="BIM & digital delivery illustration" class="img-cover" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= B. STRUCTURAL ENGINEERING ================= -->
+  <section class="service-category bg-gunmetal">
+    <div class="container">
+      <div class="service-category__layout">
+        <div>
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Category B</span>
+        <h2 class="section-title" style="display:flex;align-items:center;gap:12px;"><span class="material-symbols-outlined" style="color:var(--color-accent-bright);font-size:32px;">foundation</span> Structural Engineering</h2>
+      </div>
+      <div class="grid grid-3">
+        <div class="card" data-reveal data-reveal-delay="1">
+          <span class="mono-tag">B1</span>
+          <h3 style="font-size:var(--fs-md);margin:6px 0 8px;">Basic Structural Analysis &amp; Model Verification</h3>
+          <p style="font-size:var(--fs-sm);">Model audit, load combination review, basic frame/member check with pass/fail summary.</p>
+        </div>
+        <div class="card" data-reveal data-reveal-delay="2">
+          <span class="mono-tag">B2</span>
+          <h3 style="font-size:var(--fs-md);margin:6px 0 8px;">Complete Structural Analysis &amp; Design — RCC / Steel</h3>
+          <p style="font-size:var(--fs-sm);">ETABS/SAFE/STAAD.Pro model, response spectrum analysis, member sizing, foundation design, full calculation report.</p>
+        </div>
+        <div class="card" data-reveal data-reveal-delay="3">
+          <span class="mono-tag">B3</span>
+          <h3 style="font-size:var(--fs-md);margin:6px 0 8px;">Forensic Seismic Peer Review &amp; Nonlinear Pushover Analysis</h3>
+          <p style="font-size:var(--fs-sm);">Plastic hinge mapping, capacity curve, ATC-40/FEMA 440 performance point identification.</p>
+        </div>
+      </div>
+        </div>
+        <div class="media-figure" style="aspect-ratio:0.56;" data-reveal data-reveal-delay="1">
+          <img src="../media/services/service-structural-v01.webp" alt="Structural engineering illustration" class="img-cover" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= C. GEOTECHNICAL ENGINEERING ================= -->
+  <section class="service-category bg-charcoal">
+    <div class="container">
+      <div class="service-category__layout">
+        <div>
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Category C</span>
+        <h2 class="section-title" style="display:flex;align-items:center;gap:12px;"><span class="material-symbols-outlined" style="color:var(--color-accent-bright);font-size:32px;">layers</span> Geotechnical Engineering</h2>
+      </div>
+      <div class="grid grid-2">
+        <div class="service-item" data-reveal data-reveal-delay="1">
+          <span class="mono-tag">C1</span>
+          <h3 style="font-size:var(--fs-lg);margin:6px 0 8px;">Basic Geotechnical Modeling &amp; Analysis (PLAXIS 2D/3D)</h3>
+          <p style="font-size:var(--fs-sm);">Settlement, slope stability, or consolidation analysis with sensitivity checks and full PDF report.</p>
+        </div>
+        <div class="service-item" data-reveal data-reveal-delay="2">
+          <span class="mono-tag">C2</span>
+          <h3 style="font-size:var(--fs-lg);margin:6px 0 8px;">Advanced Geotechnical FEA — Soil-Structure Interaction &amp; Dynamic Analysis</h3>
+          <p style="font-size:var(--fs-sm);">HS-Small, UBC3D-PLM, Norsand models; TBM vibration propagation; liquefaction screening for tunnels, deep foundations, metro infrastructure.</p>
+        </div>
+      </div>
+        </div>
+        <div class="media-figure" style="aspect-ratio:0.56;" data-reveal data-reveal-delay="2">
+          <img src="../media/services/service-geotechnical-v01.webp" alt="Geotechnical engineering illustration" class="img-cover" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= D. VISUALIZATION & AUTOMATION ================= -->
+  <section class="service-category bg-gunmetal">
+    <div class="container">
+      <div class="service-category__layout">
+        <div>
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Category D</span>
+        <h2 class="section-title" style="display:flex;align-items:center;gap:12px;"><span class="material-symbols-outlined" style="color:var(--color-accent-bright);font-size:32px;">auto_awesome</span> Visualization &amp; Automation</h2>
+      </div>
+      <div class="grid grid-2">
+        <div class="service-item" data-reveal data-reveal-delay="1">
+          <span class="mono-tag">D1</span>
+          <h3 style="font-size:var(--fs-lg);margin:6px 0 8px;">Photorealistic Architectural Visualization (Twinmotion)</h3>
+          <p style="font-size:var(--fs-sm);">Up to 5 4K path-traced still renders plus a 60-second walkthrough animation from DWG, IFC, or RVT input.</p>
+        </div>
+        <div class="service-item" data-reveal data-reveal-delay="2">
+          <span class="mono-tag">D2</span>
+          <h3 style="font-size:var(--fs-lg);margin:6px 0 8px;">Engineering Automation &amp; Parametric Analysis Scripts</h3>
+          <p style="font-size:var(--fs-sm);">Python/MATLAB load-combination generators, section capacity checks, and ETABS/PLAXIS result extractors.</p>
+        </div>
+      </div>
+        </div>
+        <div class="media-figure" style="aspect-ratio:0.56;" data-reveal data-reveal-delay="1">
+          <img src="../media/services/service-visualization-v01.webp" alt="Visualization & automation illustration" class="img-cover" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SOFTWARE + CODES ================= -->
+  <section class="section bg-blueprint" style="position:relative;overflow:hidden;">
+    <div class="bg-video-layer" aria-hidden="true">
+      <video autoplay muted loop playsinline>
+        <source src="../media/services/bg-blueprint-grid-v01.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="container" style="position:relative;">
+      <div class="grid grid-2">
+        <div data-reveal>
+          <span class="eyebrow">Software</span>
+          <h2 class="section-title" style="font-size:var(--fs-2xl);">Tools We Work In</h2>
+          <div class="flex" style="flex-wrap:wrap;gap:8px;margin-top:var(--space-sm);">
+            <span class="chip">ETABS</span><span class="chip">SAP2000</span><span class="chip">SAFE</span>
+            <span class="chip">Perform3D</span><span class="chip">PLAXIS 2D</span><span class="chip">PLAXIS 3D</span>
+            <span class="chip">Revit</span><span class="chip">Navisworks</span><span class="chip">Twinmotion</span>
+            <span class="chip">AutoCAD</span><span class="chip">MATLAB</span><span class="chip">Python / OpenSees</span><span class="chip">Abaqus</span>
+          </div>
+        </div>
+        <div data-reveal data-reveal-delay="1">
+          <span class="eyebrow">Codes &amp; Standards</span>
+          <h2 class="section-title" style="font-size:var(--fs-2xl);">Governing Standards</h2>
+          <div class="flex" style="flex-wrap:wrap;gap:8px;margin-top:var(--space-sm);">
+            <span class="chip chip--accent">BNBC 2020</span><span class="chip chip--accent">ACI 318-19</span>
+            <span class="chip chip--accent">ACI 318-08</span><span class="chip chip--accent">AISC 360-22</span>
+            <span class="chip chip--accent">ASCE 7-22</span><span class="chip chip--accent">IBC 2021</span>
+            <span class="chip chip--accent">ISO 19650</span><span class="chip chip--accent">NCC 2022</span>
+            <span class="chip chip--accent">FEMA 356</span><span class="chip chip--accent">FEMA 440</span>
+            <span class="chip chip--accent">ATC-40</span><span class="chip chip--accent">Eurocode 2</span>
+            <span class="chip chip--accent">Eurocode 7</span><span class="chip chip--accent">Eurocode 8</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section text-center" style="background:rgba(77,142,204,0.06);border-top:1px solid rgba(77,142,204,0.2);border-bottom:1px solid rgba(77,142,204,0.2);">
+    <div class="container" style="max-width:640px;">
+      <h2 class="section-title" data-reveal>Have a Scope in Mind?</h2>
+      <p class="section-subtitle" style="margin:0 auto var(--space-lg);" data-reveal data-reveal-delay="1">Share a few project details and the team will put together a scoped proposal.</p>
+      <a href="../contact/index.html" class="btn btn--primary" data-reveal data-reveal-delay="2">Start an Inquiry <span class="material-symbols-outlined icon">arrow_forward</span></a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <span class="footer__brand-name">Civion BD</span>
+        <p class="footer__tagline">From Planning to Excellence. Integrated structural, geotechnical, and BIM engineering solutions.</p>
+        <div class="footer__social">
+          <a href="https://www.linkedin.com/company/civion-bd/" target="_blank" rel="noopener" aria-label="Civion BD on LinkedIn">
+            <span class="material-symbols-outlined" aria-hidden="true" style="font-size:18px;">link</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <span class="footer__col-title">Company</span>
+        <a href="../index.html">Home</a>
+        <a href="../about/index.html">About</a>
+        <a href="../team-and-partnerships/index.html">Team &amp; Partners</a>
+      </div>
+
+      <div class="footer__col">
+        <span class="footer__col-title">Expertise</span>
+        <a href="../services/index.html">Services</a>
+        <a href="../projects/index.html">Projects</a>
+      </div>
+
+      <div class="footer__col">
+        <span class="footer__col-title">Connect</span>
+        <a href="../contact/index.html">Contact</a>
+        <a href="https://www.linkedin.com/company/civion-bd/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span class="footer__meta">&copy; <span data-year></span> Civion BD. All rights reserved.</span>
+      <span class="footer__meta">Dhaka, Bangladesh 🇧🇩</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js" defer></script>
+<script src="../assets/js/animations.js" defer></script>
+</body>
+</html>

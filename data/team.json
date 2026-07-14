@@ -1,0 +1,26 @@
+{
+  "eyebrow": "THE TEAM",
+  "title": "The People Behind Civion",
+  "subtitle": "Two BUET civil engineers \u2014 same cohort, complementary disciplines \u2014 building a consultancy that covers the full project lifecycle.",
+  "members": [
+    {
+      "name": "Anway Dipta Paul",
+      "title": "Co-Founder",
+      "portrait": "media/team/anway-portrait.jpg",
+      "domainChips": ["BIM Coordination", "Structural Engineering", "Geotechnical FEA", "Visualization"],
+      "bio": "Anway leads the technical delivery at Civion BD, covering structural analysis and design, geotechnical FEA, and BIM coordination. He brings experience across PLAXIS, ETABS, Revit, and ISO 19650 workflows.",
+      "education": "B.Sc. Civil Engineering \u00b7 BUET",
+      "linkedin": "https://www.linkedin.com/in/adp237/"
+    },
+    {
+      "name": "Imran Khan",
+      "title": "Co-Founder",
+      "portrait": "media/team/imran-portrait.jpg",
+      "domainChips": ["Project Management", "Business Development", "Structural Engineering", "Client Relations"],
+      "bio": "Imran drives project coordination, client engagement, and business development at Civion BD. He manages delivery timelines, handles stakeholder communications, and contributes structural engineering expertise to select projects.",
+      "education": "B.Sc. Civil Engineering \u00b7 BUET",
+      "linkedin": "https://www.linkedin.com/in/md-imran-khan-03837a269/"
+    }
+  ],
+  "note": "Both co-founders are BUET classmates \u2014 same civil engineering cohort, complementary disciplines."
+}

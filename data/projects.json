@@ -1,0 +1,136 @@
+{
+  "projects": [
+    {
+      "slug": "mrt",
+      "name": "MRT Line-5 Northern Route",
+      "subtitle": "Geotechnical FEA",
+      "category": "Geotechnical",
+      "client": "DMTCL (Dhaka Mass Transit Company Ltd.)",
+      "location": "Dhaka, Bangladesh",
+      "scope": "Geotechnical risk quantification for TBM-induced ground movement on MRT Line-5 Northern Route alignment. Static, dynamic, and liquefaction analysis of the urban soil profile.",
+      "technicalDetails": [
+        "PLAXIS 3D FEA calibrated from field borehole data",
+        "Constitutive models: HS-Small (clayey soils), UBC3D-PLM (loose sand / liquefaction), Norsand (dense sand / dilatancy)",
+        "Dynamic TBM loading cycles: vibration propagation profiles, static settlement contours, cumulative residual settlement",
+        "Liquefaction screening on susceptible strata within influence zone",
+        "Defined safe TBM operation corridors replacing conservative blanket exclusion zones"
+      ],
+      "software": [
+        "PLAXIS 3D"
+      ],
+      "codes": [
+        "BNBC 2020",
+        "DMTCL guidelines"
+      ],
+      "mediaFolder": "media/projects/mrt/",
+      "accent": "#4D8ECC",
+      "url": "projects/mrt/index.html"
+    },
+    {
+      "slug": "ulukhola",
+      "name": "Ulukhola Factory Oversight Villa",
+      "subtitle": "BIM Consultancy",
+      "category": "BIM",
+      "client": "SB Design Limited",
+      "location": null,
+      "scope": "Architectural BIM consultancy and full coordination for a factory oversight villa. 7D BIM modeling, architectural drawing production, site visualization.",
+      "technicalDetails": [],
+      "software": [
+        "Revit",
+        "Navisworks",
+        "Twinmotion"
+      ],
+      "codes": [
+        "ISO 19650"
+      ],
+      "mediaFolder": "media/projects/ulukhola/",
+      "accent": "#A8AEB8",
+      "url": "projects/ulukhola/index.html"
+    },
+    {
+      "slug": "devdaru",
+      "name": "Devdaru Residential Complex",
+      "subtitle": "High-Rise Structural Design",
+      "category": "Structural",
+      "client": null,
+      "location": "Basila, Dhaka",
+      "scale": "15 storeys + ground-floor parking",
+      "scope": "Full structural design of 15-storey residential complex. Dual system (SMRF + RC shear wall), seismic and gravity load design.",
+      "technicalDetails": [],
+      "software": [
+        "ETABS",
+        "SAP2000"
+      ],
+      "codes": [
+        "ACI 318-08",
+        "BNBC 2020"
+      ],
+      "mediaFolder": "media/projects/devdaru/",
+      "accent": "#9BCAFF",
+      "url": "projects/devdaru/index.html"
+    },
+    {
+      "slug": "bosudha",
+      "name": "Bosudha Supermarket",
+      "subtitle": "Architectural Design",
+      "category": "BIM",
+      "client": null,
+      "location": null,
+      "scope": "Comprehensive architectural design — floor plans, site plans, elevations, facade, and shade structures.",
+      "technicalDetails": [],
+      "software": [
+        "Revit",
+        "AutoCAD"
+      ],
+      "codes": [
+        "BNBC 2020"
+      ],
+      "mediaFolder": "media/projects/bosudha/",
+      "accent": "#6B7280",
+      "url": "projects/bosudha/index.html"
+    },
+    {
+      "slug": "radiant",
+      "name": "Radiant Complex",
+      "subtitle": "Seismic Structural Design",
+      "category": "Structural",
+      "client": null,
+      "location": "Valuka, Mymensingh",
+      "scale": "6 storeys (commercial)",
+      "scope": "Full structural analysis and design. IMRF system, SDC-C seismic zone, P-Delta and soft-story checks.",
+      "technicalDetails": [],
+      "software": [
+        "ETABS"
+      ],
+      "codes": [
+        "BNBC 2020",
+        "ACI 318-08"
+      ],
+      "mediaFolder": "media/projects/radiant/",
+      "accent": "#4D8ECC",
+      "url": "projects/radiant/index.html"
+    },
+    {
+      "slug": "skymart",
+      "name": "Project Skymart",
+      "subtitle": "Commercial Development Design",
+      "category": "BIM",
+      "client": null,
+      "location": null,
+      "program": "Supermarket, Food Court, Cinema Hall, Gym, Kids' Zone",
+      "scope": "Large-scale commercial development with metro station connection. Comprehensive floor plans, site planning, space programming, and architectural visualization.",
+      "technicalDetails": [],
+      "software": [
+        "Revit",
+        "AutoCAD",
+        "Twinmotion"
+      ],
+      "codes": [
+        "BNBC 2020"
+      ],
+      "mediaFolder": "media/projects/skymart/",
+      "accent": "#9BCAFF",
+      "url": "projects/skymart/index.html"
+    }
+  ]
+}

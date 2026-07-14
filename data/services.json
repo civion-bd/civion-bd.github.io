@@ -1,0 +1,176 @@
+{
+  "categories": [
+    {
+      "id": "bim-digital-delivery",
+      "code": "A",
+      "name": "BIM & Digital Delivery",
+      "icon": "view_in_ar",
+      "services": [
+        {
+          "id": "2d-to-bim-conversion",
+          "code": "A1",
+          "name": "2D-to-BIM Conversion (PDF / DWG to Revit)",
+          "summary": "Convert legacy CAD drawings and scanned plans into clean, coordination-ready Revit models.",
+          "deliverables": [
+            "Accurate Revit model from PDF, DWG, or hand sketch",
+            "LOD 200\u2013300 geometry (upgradeable to LOD 400 on request)",
+            "Correct Revit categories, families, and naming conventions",
+            "IFC export for interoperability",
+            "Applicable to: residential, commercial, industrial buildings"
+          ]
+        },
+        {
+          "id": "parametric-revit-families",
+          "code": "A2",
+          "name": "Parametric Revit Family Creation (LOD 300\u2013400)",
+          "summary": "Custom parametric families built for precise BIM integration.",
+          "deliverables": [
+            "Structural, architectural, or MEP components",
+            "LOD 300\u2013400 geometry with fully configured instance/type parameters",
+            "Embedded metadata: material, load, fire rating, and specification data",
+            "ISO 19650-compliant naming and classification",
+            "Tested in a live Revit project environment before delivery"
+          ]
+        },
+        {
+          "id": "4d-5d-bim-coordination",
+          "code": "A3",
+          "name": "4D/5D Construction Simulation & Clash-Free BIM Coordination",
+          "summary": "Full multidisciplinary BIM coordination under ISO 19650.",
+          "deliverables": [
+            "Coordinated Revit model (LOD 300\u2013400, all disciplines)",
+            "Navisworks Clash Detective report (hard, soft, workflow clashes)",
+            "4D construction sequence simulation (Timeliner-linked schedule)",
+            "5D cost-linked model with element-level BOQ quantities",
+            "ISO 19650-compliant BEP summary document",
+            "IFC export for software-neutral interoperability"
+          ]
+        },
+        {
+          "id": "bim-fea-debugging",
+          "code": "A4",
+          "name": "Technical BIM Debugging & FEA Rescue (Revit / ETABS / PLAXIS)",
+          "summary": "Diagnostic and correction service for non-converging models and coordination issues.",
+          "deliverables": [
+            "Corrected model file with full root-cause documentation",
+            "Code-compliance verification for corrected parameters",
+            "Screen walkthrough recording for complex interventions",
+            "Applicable to: Revit, Navisworks, ETABS, SAP2000, PLAXIS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "structural-engineering",
+      "code": "B",
+      "name": "Structural Engineering",
+      "icon": "foundation",
+      "services": [
+        {
+          "id": "structural-model-verification",
+          "code": "B1",
+          "name": "Basic Structural Analysis & Model Verification",
+          "summary": "Senior-level review and verification of structural models.",
+          "deliverables": [
+            "Model audit: geometry, boundary conditions, load applications, diaphragm assignments",
+            "Load combination review and correction per applicable code (BNBC 2020, ASCE 7-22, Eurocode)",
+            "Basic frame/member check with pass/fail summary",
+            "Corrected model file returned"
+          ]
+        },
+        {
+          "id": "complete-structural-design",
+          "code": "B2",
+          "name": "Complete Structural Analysis & Design \u2014 RCC / Steel",
+          "summary": "Full structural design package for buildings of any typology.",
+          "deliverables": [
+            "ETABS / SAFE / STAAD.Pro structural model (gravity + lateral load combinations)",
+            "Response spectrum analysis (BNBC 2020, ASCE 7-22, or Eurocode 8)",
+            "Seismic + wind drift verification, P-Delta effects checked",
+            "Member sizing and reinforcement design (ACI 318-19, AISC 303-22, or Eurocode)",
+            "Foundation design (isolated, combined, or raft \u2014 with SAFE slab analysis)",
+            "Full structural calculation report and drawing mark-ups"
+          ]
+        },
+        {
+          "id": "forensic-seismic-pushover",
+          "code": "B3",
+          "name": "Forensic Seismic Peer Review & Nonlinear Pushover Analysis",
+          "summary": "Advanced nonlinear assessment for new designs and existing/damaged structures.",
+          "deliverables": [
+            "Nonlinear static (pushover) analysis in ETABS or Perform3D",
+            "Plastic hinge formation map and capacity curve (force vs. displacement)",
+            "Performance point identification (ATC-40 / FEMA 440 capacity spectrum method)",
+            "Strong-column / weak-beam compliance verification",
+            "Peer review report with findings, risk flags, and design recommendations",
+            "Applicable to new design, existing structures, and post-fire or post-damage assessment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geotechnical-engineering",
+      "code": "C",
+      "name": "Geotechnical Engineering",
+      "icon": "layers",
+      "services": [
+        {
+          "id": "basic-geotechnical-modeling",
+          "code": "C1",
+          "name": "Basic Geotechnical Modeling & Analysis (PLAXIS 2D/3D)",
+          "summary": "Focused numerical analysis for small-to-mid scale geotechnical problems.",
+          "deliverables": [
+            "PLAXIS 2D or 3D model for settlement, slope stability, or consolidation problems",
+            "Settlement profile or factor of safety with sensitivity checks",
+            "One-page results summary plus full PDF report",
+            "Input files returned with deliverables"
+          ]
+        },
+        {
+          "id": "advanced-geotechnical-fea",
+          "code": "C2",
+          "name": "Advanced Geotechnical FEA \u2014 Soil-Structure Interaction & Dynamic Analysis",
+          "summary": "High-fidelity FEA for complex underground and foundation engineering challenges.",
+          "deliverables": [
+            "Full SSI model with advanced constitutive models (HS, HS-Small, UBC3D-PLM, Norsand)",
+            "Dynamic loading analysis: vibration propagation, TBM effects, seismic response",
+            "Liquefaction screening and cyclic instability assessment",
+            "Settlement contours, vibration amplitude profiles, and safe operation corridor definition",
+            "Applicable to: tunnels, deep foundations, retaining structures, metro infrastructure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visualization-automation",
+      "code": "D",
+      "name": "Visualization & Automation",
+      "icon": "auto_awesome",
+      "services": [
+        {
+          "id": "photorealistic-visualization",
+          "code": "D1",
+          "name": "Photorealistic Architectural Visualization (Twinmotion)",
+          "summary": "Broadcast-quality renders and walkthroughs from existing CAD, IFC, or RVT files.",
+          "deliverables": [
+            "Up to 5 high-resolution still renders (4K, path-traced lighting)",
+            "1 walkthrough animation (up to 60 seconds, MP4)",
+            "Exterior + interior scene setup (materials, lighting, landscaping)",
+            "Input accepted: DWG, IFC, RVT \u2014 modeling from sketches available on request"
+          ]
+        },
+        {
+          "id": "engineering-automation-scripts",
+          "code": "D2",
+          "name": "Engineering Automation & Parametric Analysis Scripts (Python / MATLAB)",
+          "summary": "Custom scripts that eliminate repetitive manual calculation workflows.",
+          "deliverables": [
+            "Load combination generators, section capacity checks, soil profile plotters",
+            "Result extractors from ETABS/PLAXIS output files",
+            "Commented, readable code with usage instructions and sample input/output demonstration"
+          ]
+        }
+      ]
+    }
+  ]
+}

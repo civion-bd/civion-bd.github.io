@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Projects — Civion BD</title>
+<meta name="description" content="Delivered structural, geotechnical, and BIM projects including MRT Line-5 Northern Route, Devdaru Residential Complex, and Project Skymart." />
+<link rel="icon" href="../favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" href="../media/logos/favicon-32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="../media/logos/favicon-16.png" sizes="16x16" />
+<link rel="apple-touch-icon" href="../media/logos/apple-touch-icon.png" />
+<meta property="og:title" content="Projects — Civion BD" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="../media/logos/civion-bd-logo-social.png" />
+<!-- Google Analytics (GA4) — Measurement ID G-GGPD788ZMY -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GGPD788ZMY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-GGPD788ZMY', { anonymize_ip: true });
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../assets/css/main.css" />
+<link rel="stylesheet" href="../assets/css/animations.css" />
+<style>
+  .material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24;font-size:24px;line-height:1;}
+  .filter-bar { display:flex; gap:10px; flex-wrap:wrap; margin-bottom: var(--space-lg); }
+  .filter-btn {
+    font-family: var(--font-secondary); font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: 0.06em;
+    padding: 9px 18px; border-radius: var(--radius-full); border: 1px solid var(--color-outline);
+    background: transparent; color: var(--color-soft-gray); cursor: pointer;
+    transition: all var(--dur-base) var(--ease-mech);
+  }
+  .filter-btn:hover { border-color: var(--color-accent); color: var(--color-white); }
+  .filter-btn.is-active { background: var(--color-accent); border-color: var(--color-accent); color: #fff; }
+  .project-card[hidden] { display: none; }
+</style>
+</head>
+<body data-page="projects" data-depth="1">
+<a href="#main" class="skip-link">Skip to content</a>
+<nav class="nav" id="topNav">
+  <div class="nav__inner">
+    <a href="../index.html" class="nav__logo">
+      <img src="../media/logos/civion-bd-logo-light.png" alt="Civion BD" class="nav__logo-img" />
+    </a>
+
+    <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav__links">
+      <a href="../index.html" class="nav__link" data-page="home">Home</a>
+      <a href="../about/index.html" class="nav__link" data-page="about">About</a>
+      <a href="../services/index.html" class="nav__link" data-page="services">Services</a>
+      <a href="../projects/index.html" class="nav__link" data-page="projects">Projects</a>
+      <a href="../team-and-partnerships/index.html" class="nav__link" data-page="team">Team &amp; Partners</a>
+      <a href="../contact/index.html" class="btn btn--primary">Get In Touch</a>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+
+  <section class="section bg-gradient-steel" style="padding-top:calc(var(--nav-height) + var(--space-xl));position:relative;overflow:hidden;">
+    <div class="bg-video-layer" aria-hidden="true">
+      <video autoplay muted loop playsinline>
+        <source src="../media/services/bg-construction-timelapse-v01.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="container" style="position:relative;max-width:820px;">
+      <span class="hero__eyebrow">Proven Experience</span>
+      <h1 class="hero__title" style="font-size:clamp(2.2rem,4.5vw,3.4rem);margin-top:var(--space-md);">Delivered engineering, by discipline.</h1>
+      <p class="hero__subtitle">Projects are presented as Civion BD deliverables — team effort, not individual attribution.</p>
+    </div>
+  </section>
+
+  <section class="section bg-charcoal">
+    <div class="container">
+      <div class="filter-bar" role="tablist" aria-label="Filter projects by category">
+        <button class="filter-btn is-active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="Structural">Structural</button>
+        <button class="filter-btn" data-filter="Geotechnical">Geotechnical</button>
+        <button class="filter-btn" data-filter="BIM">BIM</button>
+      </div>
+
+      <div class="grid grid-3" id="projectGrid">
+
+        <div class="card project-card" id="mrt" data-category="Geotechnical" data-reveal>
+          <div class="project-card__media"><img src="../media/projects/mrt/project-mrt-hero-v01.webp" alt="MRT Line-5 Northern Route — geotechnical FEA cross-section visualization" class="img-cover" loading="lazy" /></div>
+          <div style="padding-top:var(--space-sm);">
+            <span class="chip chip--accent">Geotechnical</span>
+            <h3 style="font-size:var(--fs-lg);margin:10px 0 6px;">MRT Line-5 Northern Route</h3>
+            <p style="font-size:var(--fs-sm);margin-bottom:10px;">PLAXIS 3D geotechnical risk quantification for TBM-induced ground movement. Client: DMTCL. Dhaka, Bangladesh.</p>
+            <p style="font-size:var(--fs-sm);color:var(--color-soft-gray);margin-bottom:10px;">Constitutive models: HS-Small (clay), UBC3D-PLM (loose sand / liquefaction), Norsand (dense sand). Defined safe TBM operation corridors replacing conservative blanket exclusion zones.</p>
+            <div class="flex gap-xs" style="flex-wrap:wrap;margin-bottom:10px;">
+              <span class="chip">PLAXIS 3D</span><span class="chip">BNBC 2020</span><span class="chip">DMTCL Guidelines</span>
+            </div>
+            <div class="media-figure" style="aspect-ratio:16/9;">
+              <video controls muted loop playsinline preload="none" poster="../media/projects/mrt/project-mrt-hero-v01.webp" style="width:100%;height:100%;object-fit:cover;">
+                <source src="../media/projects/mrt/project-mrt-analysis-v01.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <a href="mrt/index.html" class="btn btn--ghost mt-lg">View Case Study <span class="material-symbols-outlined icon">chevron_right</span></a>
+          </div>
+        </div>
+
+        <div class="card project-card" id="devdaru" data-category="Structural" data-reveal data-reveal-delay="1">
+          <div class="project-card__media"><img src="../media/projects/devdaru/project-devdaru-hero-v01.webp" alt="Devdaru Residential Complex — structural render, Basila, Dhaka" class="img-cover" loading="lazy" /></div>
+          <div style="padding-top:var(--space-sm);">
+            <span class="chip chip--accent">Structural</span>
+            <h3 style="font-size:var(--fs-lg);margin:10px 0 6px;">Devdaru Residential Complex</h3>
+            <p style="font-size:var(--fs-sm);margin-bottom:10px;">Full structural design, 15 storeys + ground-floor parking. Basila, Dhaka.</p>
+            <p style="font-size:var(--fs-sm);color:var(--color-soft-gray);margin-bottom:10px;">Dual system (SMRF + RC shear wall), seismic and gravity load design.</p>
+            <div class="flex gap-xs" style="flex-wrap:wrap;">
+              <span class="chip">ETABS</span><span class="chip">SAP2000</span><span class="chip">ACI 318-08</span><span class="chip">BNBC 2020</span>
+            </div>
+            <a href="devdaru/index.html" class="btn btn--ghost mt-lg">View Case Study <span class="material-symbols-outlined icon">chevron_right</span></a>
+          </div>
+        </div>
+
+        <div class="card project-card" id="radiant" data-category="Structural" data-reveal data-reveal-delay="2">
+          <div class="project-card__media"><img src="../media/projects/radiant/project-radiant-hero-v01.webp" alt="Radiant Complex — structural render, Valuka, Mymensingh" class="img-cover" loading="lazy" /></div>
+          <div style="padding-top:var(--space-sm);">
+            <span class="chip chip--accent">Structural</span>
+            <h3 style="font-size:var(--fs-lg);margin:10px 0 6px;">Radiant Complex</h3>
+            <p style="font-size:var(--fs-sm);margin-bottom:10px;">Seismic structural design, 6-storey commercial. Valuka, Mymensingh.</p>
+            <p style="font-size:var(--fs-sm);color:var(--color-soft-gray);margin-bottom:10px;">IMRF system, SDC-C seismic zone, P-Delta and soft-story checks.</p>
+            <div class="flex gap-xs" style="flex-wrap:wrap;">
+              <span class="chip">ETABS</span><span class="chip">BNBC 2020</span><span class="chip">ACI 318-08</span>
+            </div>
+            <a href="radiant/index.html" class="btn btn--ghost mt-lg">View Case Study <span class="material-symbols-outlined icon">chevron_right</span></a>
+          </div>
+        </div>
+
+        <div class="card project-card" id="ulukhola" data-category="BIM" data-reveal>
+          <div class="project-card__media"><img src="../media/projects/ulukhola/project-ulukhola-hero-v01.webp" alt="Ulukhola Factory Oversight Villa — BIM coordination model render" class="img-cover" loading="lazy" /></div>
+          <div style="padding-top:var(--space-sm);">
+            <span class="chip chip--accent">BIM</span>
+            <h3 style="font-size:var(--fs-lg);margin:10px 0 6px;">Ulukhola Factory Oversight Villa</h3>
+            <p style="font-size:var(--fs-sm);margin-bottom:10px;">Architectural BIM consultancy and full coordination. Client: SB Design Limited.</p>
+            <p style="font-size:var(--fs-sm);color:var(--color-soft-gray);margin-bottom:10px;">7D BIM modeling, architectural drawing production, site visualization.</p>
+            <div class="flex gap-xs" style="flex-wrap:wrap;">
+              <span class="chip">Revit</span><span class="chip">Navisworks</span><span class="chip">Twinmotion</span><span class="chip">ISO 19650</span>
+            </div>
+            <a href="ulukhola/index.html" class="btn btn--ghost mt-lg">View Case Study <span class="material-symbols-outlined icon">chevron_right</span></a>
+          </div>
+        </div>
+
+        <div class="card project-card" id="bosudha" data-category="BIM" data-reveal data-reveal-delay="1">
+          <div class="project-card__media"><img src="../media/projects/bosudha/project-bosudha-hero-v01.webp" alt="Bosudha Supermarket — architectural render" class="img-cover" loading="lazy" /></div>
+          <div style="padding-top:var(--space-sm);">
+            <span class="chip chip--accent">BIM</span>
+            <h3 style="font-size:var(--fs-lg);margin:10px 0 6px;">Bosudha Supermarket</h3>
+            <p style="font-size:var(--fs-sm);margin-bottom:10px;">Comprehensive architectural design — floor plans, site plans, elevations, facade, shade structures.</p>
+            <div class="flex gap-xs" style="flex-wrap:wrap;">
+              <span class="chip">Revit</span><span class="chip">AutoCAD</span><span class="chip">BNBC 2020</span>
+            </div>
+            <a href="bosudha/index.html" class="btn btn--ghost mt-lg">View Case Study <span class="material-symbols-outlined icon">chevron_right</span></a>
+          </div>
+        </div>
+
+        <div class="card project-card" id="skymart" data-category="BIM" data-reveal data-reveal-delay="2">
+          <div class="project-card__media"><img src="../media/projects/skymart/project-skymart-hero-v01.webp" alt="Project Skymart — commercial development render" class="img-cover" loading="lazy" /></div>
+          <div style="padding-top:var(--space-sm);">
+            <span class="chip chip--accent">BIM</span>
+            <h3 style="font-size:var(--fs-lg);margin:10px 0 6px;">Project Skymart</h3>
+            <p style="font-size:var(--fs-sm);margin-bottom:10px;">Large-scale commercial development with metro station connection — supermarket, food court, cinema hall, gym, kids' zone.</p>
+            <div class="flex gap-xs" style="flex-wrap:wrap;">
+              <span class="chip">Revit</span><span class="chip">AutoCAD</span><span class="chip">Twinmotion</span><span class="chip">BNBC 2020</span>
+            </div>
+            <a href="skymart/index.html" class="btn btn--ghost mt-lg">View Case Study <span class="material-symbols-outlined icon">chevron_right</span></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section text-center" style="background:rgba(77,142,204,0.06);border-top:1px solid rgba(77,142,204,0.2);border-bottom:1px solid rgba(77,142,204,0.2);">
+    <div class="container" style="max-width:640px;">
+      <h2 class="section-title" data-reveal>Start Your Project</h2>
+      <p class="section-subtitle" style="margin:0 auto var(--space-lg);" data-reveal data-reveal-delay="1">Tell us about your engineering challenge and we'll scope the right approach.</p>
+      <a href="../contact/index.html" class="btn btn--primary" data-reveal data-reveal-delay="2">Get In Touch <span class="material-symbols-outlined icon">arrow_forward</span></a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <span class="footer__brand-name">Civion BD</span>
+        <p class="footer__tagline">From Planning to Excellence. Integrated structural, geotechnical, and BIM engineering solutions.</p>
+        <div class="footer__social">
+          <a href="https://www.linkedin.com/company/civion-bd/" target="_blank" rel="noopener" aria-label="Civion BD on LinkedIn">
+            <span class="material-symbols-outlined" aria-hidden="true" style="font-size:18px;">link</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <span class="footer__col-title">Company</span>
+        <a href="../index.html">Home</a>
+        <a href="../about/index.html">About</a>
+        <a href="../team-and-partnerships/index.html">Team &amp; Partners</a>
+      </div>
+
+      <div class="footer__col">
+        <span class="footer__col-title">Expertise</span>
+        <a href="../services/index.html">Services</a>
+        <a href="../projects/index.html">Projects</a>
+      </div>
+
+      <div class="footer__col">
+        <span class="footer__col-title">Connect</span>
+        <a href="../contact/index.html">Contact</a>
+        <a href="https://www.linkedin.com/company/civion-bd/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span class="footer__meta">&copy; <span data-year></span> Civion BD. All rights reserved.</span>
+      <span class="footer__meta">Dhaka, Bangladesh 🇧🇩</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js" defer></script>
+<script src="../assets/js/animations.js" defer></script>
+<script>
+  document.addEventListener('civion:chrome-ready', function () {
+    var buttons = document.querySelectorAll('.filter-btn');
+    var cards = document.querySelectorAll('.project-card');
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        buttons.forEach(function (b) { b.classList.remove('is-active'); });
+        btn.classList.add('is-active');
+        var filter = btn.getAttribute('data-filter');
+        cards.forEach(function (card) {
+          var match = filter === 'all' || card.getAttribute('data-category') === filter;
+          card.hidden = !match;
+        });
+      });
+    });
+  });
+</script>
+</body>
+</html>

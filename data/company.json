@@ -1,0 +1,66 @@
+{
+  "name": "Civion BD",
+  "tagline": "From Planning to Excellence",
+  "legalStatus": "Private Engineering Consultancy, Dhaka, Bangladesh",
+  "location": "House # 771-A, Road # 11, Avenue # 6, Mirpur DOHS, Dhaka-1216, Bangladesh",
+  "locationFlag": "\ud83c\udde7\ud83c\udde9",
+  "linkedin": "https://www.linkedin.com/company/civion-bd/",
+  "email": "civionbd@gmail.com",
+  "phone": "+880 1931-955112",
+  "logo": {
+    "light": "media/logos/civion-bd-logo-light.png",
+    "dark": "media/logos/civion-bd-logo-dark.png",
+    "square": "media/logos/civion-bd-logo-square.png",
+    "social": "media/logos/civion-bd-logo-social.png",
+    "mark": "media/logos/civion-bd-logo-mark.png",
+    "favicon": "favicon.ico"
+  },
+  "stats": [
+    { "value": 2, "suffix": "", "label": "Co-Founders, BUET Civil Engineering" },
+    { "value": 20, "suffix": "+", "label": "Projects Delivered" },
+    { "value": 4, "suffix": "", "label": "Engineering Disciplines" },
+    { "value": 13, "suffix": "+", "label": "Codes & Standards Applied" }
+  ],
+  "differentiators": [
+    "Founded by two BUET civil engineers \u2014 same cohort, complementary disciplines",
+    "End-to-end capability: from geotechnical investigation through structural design to BIM coordination and visualization",
+    "Code-versatile: BNBC 2020, ASCE 7-22, ACI 318, ISO 19650, Eurocode \u2014 suited for Bangladeshi and international projects",
+    "ISO 19650-native BIM workflows \u2014 no retro-fitting, no compatibility issues",
+    "Structural + geotechnical under one roof eliminates the coordination gap between disciplines"
+  ],
+  "codesAndStandards": [
+    "BNBC 2020", "ACI 318-19", "ACI 318-08", "AISC 360-22", "ASCE 7-22",
+    "IBC 2021", "ISO 19650", "NCC 2022", "FEMA 356", "FEMA 440", "ATC-40",
+    "Eurocode 2", "Eurocode 7", "Eurocode 8"
+  ],
+  "software": [
+    { "name": "ETABS", "category": "Structural Analysis" },
+    { "name": "SAP2000", "category": "Structural Analysis" },
+    { "name": "SAFE", "category": "Slab & Foundation Design" },
+    { "name": "Perform3D", "category": "Nonlinear Seismic Analysis" },
+    { "name": "PLAXIS 2D", "category": "Geotechnical FEA" },
+    { "name": "PLAXIS 3D", "category": "Geotechnical FEA" },
+    { "name": "Revit", "category": "BIM Authoring" },
+    { "name": "Navisworks", "category": "BIM Coordination & Clash" },
+    { "name": "Twinmotion", "category": "Architectural Visualization" },
+    { "name": "AutoCAD", "category": "Technical Drafting" },
+    { "name": "MATLAB", "category": "Engineering Computation" },
+    { "name": "Python / OpenSees", "category": "FEA Automation & Scripting" },
+    { "name": "Abaqus", "category": "Advanced FEA" }
+  ],
+  "nav": [
+    { "label": "Home", "href": "index.html", "page": "home" },
+    { "label": "About", "href": "about/index.html", "page": "about" },
+    { "label": "Services", "href": "services/index.html", "page": "services" },
+    { "label": "Projects", "href": "projects/index.html", "page": "projects" },
+    { "label": "Team & Partners", "href": "team-and-partnerships/index.html", "page": "team" },
+    { "label": "Contact", "href": "contact/index.html", "page": "contact" }
+  ],
+  "primaryCtas": {
+    "viewWork": { "label": "View Our Work", "href": "projects/index.html" },
+    "getInTouch": { "label": "Get In Touch", "href": "contact/index.html" }
+  },
+  "footer": {
+    "copyright": "\u00a9 2025 Civion BD. All rights reserved."
+  }
+}

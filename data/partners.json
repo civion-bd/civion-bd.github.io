@@ -1,0 +1,23 @@
+{
+  "eyebrow": "PARTNERSHIPS",
+  "title": "Working With Us",
+  "subtitle": "We collaborate with firms, contractors, and institutions across Bangladesh and internationally. If you are interested in a partnership or associate arrangement, get in touch.",
+  "types": [
+    {
+      "title": "Associate Firms",
+      "icon": "handshake",
+      "description": "We work with architectural and MEP firms that need structural or BIM engineering support \u2014 as a sub-consultant or a named partner on joint submissions."
+    },
+    {
+      "title": "Academic & Research Institutions",
+      "icon": "school",
+      "description": "We engage with engineering faculties and research groups on applied structural and geotechnical challenges, grounded in BUET's engineering tradition."
+    },
+    {
+      "title": "International Clients & Firms",
+      "icon": "public",
+      "description": "Our code range (BNBC, ASCE, ACI, Eurocode, ISO 19650) makes us a capable sub-consultant for international projects requiring a Bangladesh-based engineering team."
+    }
+  ],
+  "cta": { "label": "Discuss a Partnership \u2192", "href": "contact/index.html" }
+}
