@@ -13,6 +13,12 @@
   <link rel="apple-touch-icon" href="../media/logos/apple-touch-icon.png" />
   <meta property="og:title" content="Team & Partnerships — Civion BD" />
   <meta property="og:type" content="website" />
+<meta property="og:url" content="https://civion-bd.github.io/team-and-partnerships/" />
+<link rel="canonical" href="https://civion-bd.github.io/team-and-partnerships/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Team & Partnerships — Civion BD" />
+<meta name="twitter:description" content="Meet the co-founders of Civion BD — Anway Dipta Paul and Imran Khan, BUET civil engineering classmates with complementary disciplines — and our partnership approach." />
+<meta name="twitter:image" content="https://civion-bd.github.io/media/logos/civion-bd-logo-social.png" />
   <meta property="og:image" content="../media/logos/civion-bd-logo-social.png" />
   <!-- Google Analytics (GA4) — Measurement ID G-GGPD788ZMY -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-GGPD788ZMY"></script>
@@ -55,14 +61,114 @@
       position: relative;
       overflow: hidden;
     }
+
+    .team-card__name {
+      font-family: var(--font-secondary);
+      font-weight: 700;
+      font-size: var(--fs-xl);
+      color: var(--color-white);
+      margin-bottom: var(--space-sm);
+    }
+
+    .partner-logo {
+      width: 88px;
+      height: 88px;
+      border-radius: var(--radius-md);
+      background: var(--color-white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      margin-bottom: var(--space-md);
+      padding: 10px;
+    }
+    .partner-logo img { width: 100%; height: 100%; object-fit: contain; display: block; }
+
+    /* Shared backdrop for the Our Partners + Partnership Types subsections */
+    .partners-bg {
+      position: relative;
+      isolation: isolate;
+      padding: var(--space-xl) var(--space-lg);
+      margin: 0 calc(var(--space-lg) * -1) var(--space-lg);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+    .partners-bg::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      background-image: url('../media/partnerships/partnership-network-v01.webp');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      filter: blur(9px) brightness(1.35) contrast(1.15) saturate(1.25);
+      transform: scale(1.06);
+    }
+    .partners-bg::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background: rgba(14,17,22,0.62);
+    }
   </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://civion-bd.github.io/#organization",
+  "name": "Civion BD",
+  "alternateName": "Civion BD Engineering Consultancy",
+  "url": "https://civion-bd.github.io/",
+  "logo": "https://civion-bd.github.io/media/logos/civion-bd-logo-square.png",
+  "image": "https://civion-bd.github.io/media/logos/civion-bd-logo-social.png",
+  "description": "A Dhaka-based structural, geotechnical, and BIM engineering consultancy delivering analysis, design, and coordination under BNBC, ASCE, ACI, and ISO 19650.",
+  "email": "civionbd@gmail.com",
+  "telephone": "+8801931955112",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "House # 771-A, Road # 11, Avenue # 6, Mirpur DOHS",
+    "addressLocality": "Dhaka",
+    "postalCode": "1216",
+    "addressCountry": "BD"
+  },
+  "areaServed": "BD",
+  "priceRange": "$$",
+  "sameAs": [
+    "https://www.linkedin.com/company/civion-bd/",
+    "https://www.facebook.com/civion.bd.official",
+    "https://x.com/civionbd"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://civion-bd.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Team & Partnerships",
+      "item": "https://civion-bd.github.io/team-and-partnerships/"
+    }
+  ]
+}
+</script>
 </head>
 
 <body data-page="team" data-depth="1">
   <a href="#main" class="skip-link">Skip to content</a>
   <nav class="nav" id="topNav">
     <div class="nav__inner">
-      <a href="../index.html" class="nav__logo">
+      <a href="../" class="nav__logo">
         <img src="../media/logos/civion-bd-logo-light.png" alt="Civion BD" class="nav__logo-img" />
       </a>
 
@@ -71,12 +177,12 @@
       </button>
 
       <div class="nav__links">
-        <a href="../index.html" class="nav__link" data-page="home">Home</a>
-        <a href="../about/index.html" class="nav__link" data-page="about">About</a>
-        <a href="../services/index.html" class="nav__link" data-page="services">Services</a>
-        <a href="../projects/index.html" class="nav__link" data-page="projects">Projects</a>
-        <a href="../team-and-partnerships/index.html" class="nav__link" data-page="team">Team &amp; Partners</a>
-        <a href="../contact/index.html" class="btn btn--primary">Get In Touch</a>
+        <a href="../about/" class="nav__link" data-page="about">About</a>
+        <a href="../services/" class="nav__link" data-page="services">Services</a>
+        <a href="../projects/" class="nav__link" data-page="projects">Projects</a>
+        <a href="../team-and-partnerships/" class="nav__link" data-page="team">Team &amp; Partners</a>
+        <a href="../careers/" class="nav__link" data-page="careers">Careers</a>
+        <a href="../contact/" class="btn btn--primary">Get In Touch</a>
       </div>
     </div>
   </nav>
@@ -100,15 +206,20 @@
           Geotechnical, and MEP engineers combines technical expertise with innovative thinking to deliver precise,
           efficient, and dependable engineering solutions. From concept to completion, we uphold the highest
           standards—without compromise.</p>
+        <div class="hero__ctas">
+          <a href="#our-team" class="btn btn--primary">Meet the Team <span class="material-symbols-outlined icon">arrow_forward</span></a>
+          <a href="#partnerships" class="btn btn--secondary">Our Partnerships</a>
+        </div>
       </div>
     </section>
 
     <!-- ================= TEAM ================= -->
-    <section class="section bg-charcoal">
+    <section class="section bg-charcoal" id="our-team">
       <div class="container">
         <div class="grid grid-2" style="max-width:900px;margin:0 auto;">
 
           <div class="card team-card" data-reveal>
+            <p class="team-card__name">Anway Dipta Paul</p>
             <div class="team-card__portrait"><img src="../media/team/anway-portrait-v01.webp" alt="Anway Dipta Paul"
                 class="img-cover" loading="lazy" style="border-radius:var(--radius-full);" /></div>
             <p class="mono-tag" style="margin-bottom:var(--space-sm);">Co-Founder</p>
@@ -127,6 +238,7 @@
           </div>
 
           <div class="card team-card" data-reveal data-reveal-delay="1">
+            <p class="team-card__name">Imran Khan</p>
             <div class="team-card__portrait"><img src="../media/team/imran-portrait-v01.webp" alt="Imran Khan"
                 class="img-cover" loading="lazy" style="border-radius:var(--radius-full);" /></div>
             <p class="mono-tag" style="margin-bottom:var(--space-sm);">Co-Founder</p>
@@ -147,54 +259,146 @@
 
         </div>
         <p class="text-center" style="margin-top:var(--space-lg);color:var(--color-steel-gray);font-size:var(--fs-sm);"
-          data-reveal>Both co-founders are BUET classmates — same civil engineering cohort, complementary disciplines.
+          data-reveal>A Team of Excellent Engineers, Providing the Best of their Capabilities
         </p>
+
+        <!-- ================= EMPLOYEES ================= -->
+        <div class="section-head" style="margin-top:var(--space-xl);text-align:center;" data-reveal>
+          <span class="eyebrow">Our People</span>
+          <h2 class="section-title" style="font-size:var(--fs-2xl);">Team &amp; Interns</h2>
+        </div>
+        <div class="grid grid-3" style="max-width:1100px;margin:0 auto;">
+
+          <div class="card team-card" data-reveal>
+            <p class="team-card__name" style="font-size:var(--fs-lg);">Md. Samiul Alim</p>
+            <div class="team-card__portrait" style="width:110px;height:110px;"><img
+                src="../media/team/samiul-portrait-v01.webp" alt="Md. Samiul Alim" class="img-cover"
+                loading="lazy" style="border-radius:var(--radius-full);" /></div>
+            <p class="mono-tag" style="margin-bottom:var(--space-sm);">Marketing Strategist</p>
+            <div class="chip" style="margin-bottom:var(--space-sm);">B.Sc. Civil Engineering · BUET</div>
+            <div>
+              <a href="https://www.linkedin.com/in/samiulalim04090/" target="_blank" rel="noopener"
+                class="btn btn--ghost">View LinkedIn Profile <span
+                  class="material-symbols-outlined icon">arrow_forward</span></a>
+            </div>
+          </div>
+
+          <div class="card team-card" data-reveal data-reveal-delay="1">
+            <p class="team-card__name" style="font-size:var(--fs-lg);">Fahad Mahamud</p>
+            <div class="team-card__portrait" style="width:110px;height:110px;"><img
+                src="../media/team/fahad-portrait-v01.webp" alt="Fahad Mahamud" class="img-cover"
+                loading="lazy" style="border-radius:var(--radius-full);" /></div>
+            <p class="mono-tag" style="margin-bottom:var(--space-sm);">HR Manager</p>
+            <div class="chip" style="margin-bottom:var(--space-sm);">B.Sc. Civil Engineering · BUET</div>
+            <div>
+              <a href="https://www.linkedin.com/in/fahad-mahamud-45b771387/" target="_blank" rel="noopener"
+                class="btn btn--ghost">View LinkedIn Profile <span
+                  class="material-symbols-outlined icon">arrow_forward</span></a>
+            </div>
+          </div>
+
+          <div class="card team-card" data-reveal data-reveal-delay="2">
+            <p class="team-card__name" style="font-size:var(--fs-lg);">Meherunnesa Sadiya</p>
+            <div class="team-card__portrait" style="width:110px;height:110px;"><img
+                src="../media/team/sadiya-portrait-placeholder-v01.webp" alt="Meherunnesa Sadiya" class="img-cover"
+                loading="lazy" style="border-radius:var(--radius-full);" /></div>
+            <p class="mono-tag" style="margin-bottom:var(--space-sm);">Intern Engineer</p>
+            <div class="chip" style="margin-bottom:var(--space-sm);">B.Sc. Civil Engineering · BUET</div>
+          </div>
+
+        </div>
+
+        <div class="text-center" style="margin-top:var(--space-lg);" data-reveal>
+          <a href="../careers/" class="btn btn--secondary">View Career Openings <span
+              class="material-symbols-outlined icon">arrow_forward</span></a>
+        </div>
       </div>
     </section>
 
     <!-- ================= PARTNERSHIPS ================= -->
-    <section class="section bg-blueprint">
+    <section class="section bg-blueprint" id="partnerships">
       <div class="container">
-        <div class="grid grid-2" style="align-items:center;margin-bottom:var(--space-lg);">
-          <div data-reveal>
+
+        <div class="partners-bg">
+
+          <!-- ================= OUR PARTNERS ================= -->
+          <div class="section-head" data-reveal>
+            <span class="eyebrow">Our Partners</span>
+            <h2 class="section-title" style="font-size:var(--fs-2xl);">ZRN Engineering &amp; Ihtad</h2>
+          </div>
+          <div class="grid grid-2" style="margin-bottom:var(--space-md);">
+            <div class="card" data-reveal>
+              <div class="partner-logo"><img src="../media/partnerships/zrn_engineering_logo.jpg"
+                  alt="ZRN Engineering logo" /></div>
+              <p class="mono-tag" style="margin-bottom:8px;">Construction Partner</p>
+              <h3 style="font-size:var(--fs-lg);margin-bottom:8px;">ZRN Engineering</h3>
+              <p style="font-size:var(--fs-sm);color:var(--color-soft-gray);margin-bottom:var(--space-sm);">Executes construction on the projects
+                Civion BD designs — the on-the-ground build partner turning our structural and BIM deliverables into
+                completed structures.</p>
+              <div>
+                <a href="https://www.linkedin.com/company/zrn-engineering" target="_blank" rel="noopener"
+                  class="btn btn--ghost">View LinkedIn Profile <span
+                    class="material-symbols-outlined icon">arrow_forward</span></a>
+              </div>
+            </div>
+            <div class="card" data-reveal data-reveal-delay="1">
+              <div class="partner-logo"><img src="../media/partnerships/ihtad_logo.jpg" alt="Ihtad logo" /></div>
+              <p class="mono-tag" style="margin-bottom:8px;">Investment Partner</p>
+              <h3 style="font-size:var(--fs-lg);margin-bottom:8px;">Ihtad</h3>
+              <p style="font-size:var(--fs-sm);color:var(--color-soft-gray);margin-bottom:var(--space-sm);">Channels capital from investors into
+                ZRN Engineering's construction projects, funding the developments that Civion BD provides design and
+                consultancy for.</p>
+              <div>
+                <a href="https://www.linkedin.com/company/ihtad/" target="_blank" rel="noopener"
+                  class="btn btn--ghost">View LinkedIn Profile <span
+                    class="material-symbols-outlined icon">arrow_forward</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="card card--flat" style="margin-bottom:var(--space-xl);" data-reveal data-reveal-delay="2">
+            <p class="mono-tag" style="margin-bottom:8px;">The Connection</p>
+            <p style="font-size:var(--fs-sm);color:var(--color-soft-gray);">Ihtad funnels investor capital into ZRN
+              Engineering's construction projects; Civion BD provides the structural, geotechnical, and BIM design
+              and consultancy behind them. Three firms, one coordinated chain — from investment, through design, to
+              build.</p>
+          </div>
+
+          <!-- ================= PARTNERSHIP TYPES ================= -->
+          <div style="margin-bottom:var(--space-lg);" data-reveal>
             <span class="eyebrow">Partnerships</span>
             <h2 class="section-title">Working With Us</h2>
             <p class="section-subtitle">We collaborate with firms, contractors, and institutions across Bangladesh and
               internationally. If you are interested in a partnership or associate arrangement, get in touch.</p>
           </div>
-          <div class="media-figure" style="max-width:340px;margin:0 auto;aspect-ratio:2/3;" data-reveal
-            data-reveal-delay="1">
-            <img src="../media/partnerships/partnership-network-v01.webp"
-              alt="Civion BD partnership network illustration" class="img-cover" loading="lazy" />
-          </div>
-        </div>
 
-        <div class="grid grid-3">
-          <div class="card" data-reveal data-reveal-delay="1">
-            <span class="material-symbols-outlined"
-              style="color:var(--color-accent-bright);font-size:32px;margin-bottom:var(--space-sm);">handshake</span>
-            <h3 style="font-size:var(--fs-lg);margin-bottom:8px;">Associate Firms</h3>
-            <p style="font-size:var(--fs-sm);">We work with architectural and MEP firms that need structural or BIM
-              engineering support — as a sub-consultant or a named partner on joint submissions.</p>
+          <div class="grid grid-3">
+            <div class="card" data-reveal data-reveal-delay="1">
+              <span class="material-symbols-outlined"
+                style="color:var(--color-accent-bright);font-size:32px;margin-bottom:var(--space-sm);">handshake</span>
+              <h3 style="font-size:var(--fs-lg);margin-bottom:8px;">Associate Firms</h3>
+              <p style="font-size:var(--fs-sm);">We work with architectural and MEP firms that need structural or BIM
+                engineering support — as a sub-consultant or a named partner on joint submissions.</p>
+            </div>
+            <div class="card" data-reveal data-reveal-delay="2">
+              <span class="material-symbols-outlined"
+                style="color:var(--color-accent-bright);font-size:32px;margin-bottom:var(--space-sm);">school</span>
+              <h3 style="font-size:var(--fs-lg);margin-bottom:8px;">Academic &amp; Research Institutions</h3>
+              <p style="font-size:var(--fs-sm);">We engage with engineering faculties and research groups on applied
+                structural and geotechnical challenges, grounded in BUET's engineering tradition.</p>
+            </div>
+            <div class="card" data-reveal data-reveal-delay="3">
+              <span class="material-symbols-outlined"
+                style="color:var(--color-accent-bright);font-size:32px;margin-bottom:var(--space-sm);">public</span>
+              <h3 style="font-size:var(--fs-lg);margin-bottom:8px;">International Clients &amp; Firms</h3>
+              <p style="font-size:var(--fs-sm);">Our code range (BNBC, ASCE, ACI, Eurocode, ISO 19650) makes us a capable
+                sub-consultant for international projects requiring a Bangladesh-based engineering team.</p>
+            </div>
           </div>
-          <div class="card" data-reveal data-reveal-delay="2">
-            <span class="material-symbols-outlined"
-              style="color:var(--color-accent-bright);font-size:32px;margin-bottom:var(--space-sm);">school</span>
-            <h3 style="font-size:var(--fs-lg);margin-bottom:8px;">Academic &amp; Research Institutions</h3>
-            <p style="font-size:var(--fs-sm);">We engage with engineering faculties and research groups on applied
-              structural and geotechnical challenges, grounded in BUET's engineering tradition.</p>
-          </div>
-          <div class="card" data-reveal data-reveal-delay="3">
-            <span class="material-symbols-outlined"
-              style="color:var(--color-accent-bright);font-size:32px;margin-bottom:var(--space-sm);">public</span>
-            <h3 style="font-size:var(--fs-lg);margin-bottom:8px;">International Clients &amp; Firms</h3>
-            <p style="font-size:var(--fs-sm);">Our code range (BNBC, ASCE, ACI, Eurocode, ISO 19650) makes us a capable
-              sub-consultant for international projects requiring a Bangladesh-based engineering team.</p>
-          </div>
+
         </div>
 
         <div class="text-center mt-lg" data-reveal>
-          <a href="../contact/index.html" class="btn btn--primary">Discuss a Partnership <span
+          <a href="../contact/#contact" class="btn btn--primary">Discuss a Partnership <span
               class="material-symbols-outlined icon">arrow_forward</span></a>
         </div>
       </div>
@@ -205,39 +409,31 @@
   <footer class="footer">
     <div class="container">
       <div class="footer__top">
-        <div class="footer__brand">
-          <span class="footer__brand-name">Civion BD</span>
-          <p class="footer__tagline">From Planning to Excellence. Integrated structural, geotechnical, and BIM
-            engineering solutions.</p>
-          <div class="footer__social">
-            <a href="https://www.linkedin.com/company/civion-bd/" target="_blank" rel="noopener"
-              aria-label="Civion BD on LinkedIn">
-              <span class="material-symbols-outlined" aria-hidden="true" style="font-size:18px;">link</span>
-            </a>
-          </div>
-        </div>
-
-        <div class="footer__col">
-          <span class="footer__col-title">Company</span>
-          <a href="../index.html">Home</a>
-          <a href="../about/index.html">About</a>
-          <a href="../team-and-partnerships/index.html">Team &amp; Partners</a>
-        </div>
-
-        <div class="footer__col">
-          <span class="footer__col-title">Expertise</span>
-          <a href="../services/index.html">Services</a>
-          <a href="../projects/index.html">Projects</a>
-        </div>
-
-        <div class="footer__col">
-          <span class="footer__col-title">Connect</span>
-          <a href="../contact/index.html">Contact</a>
-          <a href="https://www.linkedin.com/company/civion-bd/" target="_blank" rel="noopener">LinkedIn</a>
-        </div>
+      <div class="footer__brand">
+        <span class="footer__brand-name">Civion BD</span>
+        <p class="footer__tagline">From Planning to Excellence. Integrated structural, geotechnical, and BIM engineering solutions.</p>
       </div>
 
-      <div class="footer__bottom">
+      <div class="footer__col footer__col--connect">
+        <span class="footer__col-title">Connect</span>
+        <div class="footer__social">
+          <a href="https://www.linkedin.com/company/civion-bd/" target="_blank" rel="noopener" aria-label="Civion BD on LinkedIn" title="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7 0h3.8v2.05h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V23h-4v-6.9c0-1.65-.03-3.77-2.3-3.77-2.3 0-2.65 1.8-2.65 3.65V23h-4V8z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/civion.bd.official" target="_blank" rel="noopener" aria-label="Civion BD on Facebook" title="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.51 1.49-3.9 3.77-3.9 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.89h2.78l-.44 2.91h-2.34V22c4.78-.76 8.44-4.92 8.44-9.94z"/></svg>
+          </a>
+          <a href="https://x.com/civionbd" target="_blank" rel="noopener" aria-label="Civion BD on X" title="X">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5.4-6.6L4.4 22H1.3l8.1-9.3L1 2h7.1l4.9 6.1L18.9 2zM17.6 20h1.9L6.5 4H4.5l13.1 16z"/></svg>
+          </a>
+          <a href="tel:+8801931955112" aria-label="Call Civion BD" title="Call Civion BD">
+            <span class="material-symbols-outlined" aria-hidden="true" style="font-size:18px;">call</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
         <span class="footer__meta">&copy; <span data-year></span> Civion BD. All rights reserved.</span>
         <span class="footer__meta">Dhaka, Bangladesh 🇧🇩</span>
       </div>

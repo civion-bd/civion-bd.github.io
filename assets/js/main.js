@@ -137,6 +137,21 @@
     document.querySelectorAll('[data-year]').forEach((el) => (el.textContent = new Date().getFullYear()));
   }
 
+  /* ---------- Clickable Cards ----------
+     Any element carrying data-href becomes clickable anywhere on its
+     surface. Clicks that land on a real link, the video player, or a
+     form control are left alone so their own native behavior (navigation,
+     play/pause, scrubbing, typing) still works untouched. */
+  function initClickableCards() {
+    document.querySelectorAll('[data-href]').forEach((card) => {
+      card.addEventListener('click', (e) => {
+        if (e.target.closest('a, video, source, button, input, textarea, select')) return;
+        const dest = card.getAttribute('data-href');
+        if (dest) window.location.href = dest;
+      });
+    });
+  }
+
   /* ---------- Boot ---------- */
   document.addEventListener('DOMContentLoaded', () => {
     setActiveNavLink();
@@ -145,6 +160,7 @@
     initCounters();
     initForms();
     setYear();
+    initClickableCards();
     document.dispatchEvent(new CustomEvent('civion:chrome-ready'));
   });
 })();
