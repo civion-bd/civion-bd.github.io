@@ -146,55 +146,38 @@
         <!-- ================= FORM ================= -->
         <div data-reveal>
           <h2 class="section-title" style="font-size:var(--fs-2xl);margin-bottom:var(--space-md);">Send an Inquiry</h2>
-          <form action="https://formspree.io/f/xwvgeqdk" method="POST">
+          <form data-formspree="https://formspree.io/f/xwvgeqdk" novalidate data-reveal>
             <div class="field">
               <label for="name">Name</label>
               <input type="text" id="name" name="name" required />
             </div>
-
             <div class="field">
               <label for="company">Company</label>
               <input type="text" id="company" name="company" />
             </div>
-
             <div class="field">
               <label for="email">Email</label>
               <input type="email" id="email" name="email" required />
             </div>
-
             <div class="field">
               <label for="service">Service Interest</label>
               <select id="service" name="service">
                 <option value="">Select an option</option>
-                <option value="bim">BIM &amp; Digital Delivery</option>
-                <option value="structural">Structural Engineering</option>
-                <option value="geotechnical">Geotechnical Engineering</option>
-                <option value="visualization">Visualization &amp; Automation</option>
-                <option value="partnership">Co-operation &amp; Partnership</option>
-                <option value="general">Other / General Inquiry</option>
+                <option>BIM &amp; Digital Delivery</option>
+                <option>Structural Engineering</option>
+                <option>Geotechnical Engineering</option>
+                <option>Visualization &amp; Automation</option>
+                <option>Co-operation &amp; Partnership</option>
+                <option>Other / General Inquiry</option>
               </select>
             </div>
-
             <div class="field">
               <label for="message">Message</label>
-              <textarea
-                id="message"
-                name="message"
-                required
-                style="min-height: 180px;"
-                placeholder="Tell us about your project — scope, timeline, budget range, and how we can help."
-              ></textarea>
+              <textarea id="message" name="message" required style="min-height:180px;" placeholder="Tell us about your project — scope, timeline, budget range, and how we can help."></textarea>
             </div>
-
-            <button type="submit" class="btn btn--primary btn--block">
-              Send Inquiry
-              <span class="material-symbols-outlined icon">arrow_forward</span>
-            </button>
-
-            <p class="form-note">
-              Your inquiry is processed by Formspree. Please see our privacy policy
-              for details on how your information is handled.
-            </p>
+            <button type="submit" class="btn btn--primary btn--block">Send Inquiry <span class="material-symbols-outlined icon">arrow_forward</span></button>
+            <p class="form-note">Form submissions are handled via Formspree — no data is stored on our servers.</p>
+            <p data-form-status role="status" aria-live="polite"></p>
           </form>
 
           <div style="margin-top:var(--space-lg);padding-top:var(--space-lg);border-top:1px solid rgba(139,145,155,0.15);text-align:center;">
